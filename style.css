@@ -7,9 +7,13 @@ coloque nas sessões indicadas*/
 :root{
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-   --cor-de-fundo: #F5F5F5;
-   --cor-de-link: #000;
-   --max-size-width: 75%; /*default 1200px*/
+    --cor-de-fundo: #256D85;
+    --cor-de-fundo-2: #06283D;
+    --cor-de-fundo-3: #DFF6FF;
+    --cor-de-texto: #DFF6FF;
+    --cor-de-texto-2: #06283D;
+    --cor-de-link: #000;
+    --max-size-width: 75%; /*default 1200px*/
 }
 
 body {
@@ -19,7 +23,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1;
-    color: #464646;
+    color: var(--cor-de-texto);
 }
 ol, ul, li {
     list-style: none;
@@ -43,9 +47,9 @@ Enlace de la documentación oficial!
 https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Menu*/
-/* .menu {
-    background-color: aquamarine;
-} */
+.menu {
+    background-color: var(--cor-de-fundo-3);
+}
 
 .menu__div {
     display: flex;
@@ -64,6 +68,7 @@ https://en.bem.info/methodology/quick-start/*/
 
 .menu__title {
     margin-left: 0.5rem;
+    color: var(--cor-de-texto-2);
 }
 
 .menu__list {
@@ -72,6 +77,14 @@ https://en.bem.info/methodology/quick-start/*/
 
 .menu__list__item {
     margin: 0 1rem;
+}
+
+.menu__list__item a{
+    color: var(--cor-de-texto-2);
+}
+
+.menu__list__item a:hover {
+    text-decoration: underline;
 }
 
 .menu__list__item--contato {
@@ -97,8 +110,10 @@ https://en.bem.info/methodology/quick-start/*/
 }
 
 .title__profile {
+    box-sizing: border-box;
     max-height: 350px;
     border-radius: 50%;
+    border: 5px solid #06283D;
 }
 
 .title__container {
@@ -129,7 +144,7 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sección About*/
 .about {
-    background-color: #EAF2FD;
+    background-color: var(--cor-de-fundo-2);
 }
 
 .about__container {
@@ -173,7 +188,8 @@ https://en.bem.info/methodology/quick-start/*/
     box-sizing: border-box;
     width: 176px;
     height: 174px;
-    background-color: #FFFFFF;
+    background-color: var(--cor-de-fundo-2);
+    color: var(--cor-de-texto);
     margin: 0.5rem;
     padding: 0 1rem;
     align-items: flex-end;
@@ -213,7 +229,8 @@ https://en.bem.info/methodology/quick-start/*/
     box-sizing: border-box;
     width: 176px;
     height: 174px;
-    background-color: #FFFFFF;
+    background-color: var(--cor-de-fundo-2);
+    color: var(--cor-de-texto);
     margin: 0.5rem;
     padding: 0 1rem;
     align-items: flex-end;
@@ -230,7 +247,7 @@ https://en.bem.info/methodology/quick-start/*/
 
 /* Experiencia Académica*/
 .academic {
-    background-color: #EAF2FD;
+    background-color: var(--cor-de-fundo-2);
     padding: 2rem 0;
 }
 
@@ -329,23 +346,27 @@ https://en.bem.info/methodology/quick-start/*/
 
 .experiencia__botao--repo {
     background-color: transparent;
-    border: 1px solid #2A7AE4;
-    color: #2A7AE4;
+    border: 1px solid var(--cor-de-fundo-3);
+    width: 120px;
+    border-radius: 5px;
+    color: var(--cor-de-texto);
     padding: 1rem;
     cursor: pointer;
 }
 
 .experience__botao--demo {
-    background-color: #2A7AE4;
-    border: 1px solid #2A7AE4;
-    color: #FFFFFF;
+    background-color: var(--cor-de-fundo-2);
+    border: 1px solid var(--cor-de-fundo-2);
+    width: 120px;
+    border-radius: 5px;
+    color: var(--cor-de-texto);
     padding: 1rem;
     cursor: pointer;
 }
 
 /*Contacto*/
 .formcontato {
-    background-color: #EAF2FD;
+    background-color: var(--cor-de-fundo-2);
 }
 
 .formcontato__contacto {
@@ -416,7 +437,8 @@ https://en.bem.info/methodology/quick-start/*/
 /*footeer*/
 .footer {
     padding: 1rem;
-    background-color: #FFFFFF;
+    background-color: var(--cor-de-fundo-3);
+    color: var(--cor-de-texto-2);
 }
 
 .footer__rodape {
