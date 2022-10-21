@@ -44,14 +44,14 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Menu*/
 .menu {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .menu__div {
     display: flex;
     width: var(--max-size-width);
     margin: auto;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     justify-content: space-between;
     align-items: center;
 }
@@ -81,7 +81,7 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Title*/
 .title {
-    background-color: bisque;
+    /* background-color: bisque; */
 }
 
 .title__div {
@@ -89,7 +89,7 @@ https://en.bem.info/methodology/quick-start/*/
     flex-direction: row-reverse;
     width: var(--max-size-width);
     margin: auto;
-    background-color: aqua;
+    /* background-color: aqua; */
     align-items: center;
     padding: 1rem;
     box-sizing: border-box;
@@ -133,7 +133,7 @@ https://en.bem.info/methodology/quick-start/*/
 
 .about__container {
     width: var(--max-size-width);
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     box-sizing: border-box;
     margin: auto;
     padding: 2rem 1rem;
@@ -150,7 +150,7 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Section Skills*/
 .skills {
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .skills__title {
@@ -160,7 +160,7 @@ https://en.bem.info/methodology/quick-start/*/
 
 .skills__line {
     display: flex;
-    background-color: beige;
+    /* background-color: beige; */
     /* width: var(--max-size-width); */
     margin: auto;
     justify-content: center;
@@ -184,7 +184,7 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Hobbies*/
 .hobbies {
-    background-color: bisque;
+    /* background-color: bisque; */
 }
 
 .hobbies__title {
@@ -194,7 +194,7 @@ https://en.bem.info/methodology/quick-start/*/
 
 .hobbies__line {
     display: flex;
-    background-color: beige;
+    /* background-color: beige; */
     /* width: var(--max-size-width); */
     margin: auto;
     justify-content: center;
@@ -232,7 +232,7 @@ https://en.bem.info/methodology/quick-start/*/
     display: flex;
     /* width: var(--max-size-width); */
     margin: auto;
-    background-color: beige;
+    /* background-color: beige; */
     gap: 1rem;
     justify-content: center;
     flex-wrap: wrap;
@@ -241,7 +241,7 @@ https://en.bem.info/methodology/quick-start/*/
 .academic__courses__list {
     display: flex;
     flex-direction: column;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     width: 368px;
 }
 
@@ -262,7 +262,7 @@ https://en.bem.info/methodology/quick-start/*/
 
 /* experiencia*/
 .experience {
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
 }
 
 .experience__div {
@@ -273,7 +273,7 @@ https://en.bem.info/methodology/quick-start/*/
     margin: auto;
     padding: 2rem;
     box-sizing: border-box;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
 
 .experience__section__title {
@@ -301,7 +301,7 @@ https://en.bem.info/methodology/quick-start/*/
     flex-direction: column;
     justify-content: center;
     padding: 1rem;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .experience__title {
@@ -340,7 +340,7 @@ https://en.bem.info/methodology/quick-start/*/
 .formcontato__contacto {
     display: flex;
     padding: 5rem;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     box-sizing: border-box;
     /* width: var(--max-size-width); */
     margin: auto;
@@ -411,7 +411,7 @@ https://en.bem.info/methodology/quick-start/*/
 .footer__rodape {
     width: var(--max-size-width);
     margin: auto;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     text-align: center;
     font-weight: bold;
     font-size: 1.2rem;
@@ -654,7 +654,7 @@ Utiliza las referencias de los breakpoints @media abajo */
     }
 
     .title__network {
-        flex-direction: column;
+        flex-direction: row;
         gap: 0.5rem;
     }
 
