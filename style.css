@@ -43,9 +43,9 @@ Enlace de la documentación oficial!
 https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Menu*/
-.menu {
-    /* background-color: aquamarine; */
-}
+/* .menu {
+    background-color: aquamarine;
+} */
 
 .menu__div {
     display: flex;
@@ -80,9 +80,9 @@ https://en.bem.info/methodology/quick-start/*/
 }
 
 /*Sección Title*/
-.title {
-    /* background-color: bisque; */
-}
+/* .title {
+    background-color: bisque;
+} */
 
 .title__div {
     display: flex;
@@ -98,6 +98,7 @@ https://en.bem.info/methodology/quick-start/*/
 
 .title__profile {
     max-height: 350px;
+    border-radius: 50%;
 }
 
 .title__container {
@@ -149,9 +150,9 @@ https://en.bem.info/methodology/quick-start/*/
 }
 
 /*Section Skills*/
-.skills {
-    /* background-color: blue; */
-}
+/* .skills {
+    background-color: blue;
+} */
 
 .skills__title {
     text-align: center;
@@ -176,16 +177,21 @@ https://en.bem.info/methodology/quick-start/*/
     margin: 0.5rem;
     padding: 0 1rem;
     align-items: flex-end;
+    border-radius: 10px;
 }
 
 .skills__img {
     margin-bottom: 0.5rem;
 }
 
-/*Sección Hobbies*/
-.hobbies {
-    /* background-color: bisque; */
+.skills__img img{
+    width: 50px;
 }
+
+/*Sección Hobbies*/
+/* .hobbies {
+    background-color: bisque;
+} */
 
 .hobbies__title {
     text-align: center;
@@ -211,10 +217,15 @@ https://en.bem.info/methodology/quick-start/*/
     margin: 0.5rem;
     padding: 0 1rem;
     align-items: flex-end;
+    border-radius: 10px;
 }
 
 .hobbies__img {
     margin-bottom: 0.5rem;
+}
+
+.hobbies__img img{
+    width: 50px;
 }
 
 /* Experiencia Académica*/
@@ -261,9 +272,9 @@ https://en.bem.info/methodology/quick-start/*/
 }
 
 /* experiencia*/
-.experience {
-    /* background-color: yellowgreen; */
-}
+/* .experience {
+    background-color: yellowgreen;
+} */
 
 .experience__div {
     display: flex;
@@ -633,7 +644,7 @@ Utiliza las referencias de los breakpoints @media abajo */
 @media (max-width: 320px) {
     /* Menu */
     .menu__div {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .menu__title {
@@ -696,6 +707,4 @@ Utiliza las referencias de los breakpoints @media abajo */
     .formcontato__botao {
         width: 100%;
     }
-
-
 }
