@@ -1,0 +1,42 @@
+/* Scroll Bar */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--cor-de-fundo-3);
+    border: 0px none #ffffff;
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--cor-de-fundo-3);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: var(--cor-de-fundo-3);
+}
+
+::-webkit-scrollbar-track {
+    background: var(--cor-de-fundo);
+    border: 0px none #ffffff;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-track:hover {
+    background: var(--cor-de-fundo);
+}
+
+::-webkit-scrollbar-track:active {
+    background: var(--cor-de-fundo);
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}

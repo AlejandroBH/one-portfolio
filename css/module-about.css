@@ -1,0 +1,38 @@
+/* About */
+.about {
+    background-color: var(--cor-de-fundo-2);
+}
+
+.about__container {
+    width: var(--max-size-width);
+    box-sizing: border-box;
+    margin: auto;
+    padding: 2rem 1rem;
+}
+
+.about__title {
+    font-size: 1.5rem;
+}
+
+.about__paragraph {
+    width: 70%;
+    line-height: 1.2;
+}
+
+/* Diseño Adaptativo */
+
+@media (max-width: 768px) {
+
+    /* About */
+    .about__paragraph {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+
+    /* About */
+    .about__container {
+        padding: 1rem;
+    }
+}

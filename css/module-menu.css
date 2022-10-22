@@ -1,0 +1,85 @@
+/* menu */
+.menu {
+    background-color: var(--cor-de-fundo-3);
+}
+
+.menu__div {
+    display: flex;
+    width: var(--max-size-width);
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__header {
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.menu__icon {
+    width: 25px;
+}
+
+.menu__title {
+    margin-left: 0.5rem;
+    color: var(--cor-de-texto-2);
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__list__item {
+    margin: 0 1rem;
+}
+
+.menu__list__item a {
+    color: var(--cor-de-texto-2);
+}
+
+.menu__list__item a:hover {
+    text-decoration: underline;
+}
+
+.menu__list__item--contato {
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+/* Diseño Adaptativo */
+@media (max-width: 768px) {
+
+    /* Menu */
+    .menu__list__item {
+        display: none;
+    }
+
+    .menu__list__item--contato {
+        display: block;
+    }
+}
+
+@media (max-width: 425px) {
+
+    /* Menu */
+    .menu__list__item--contato {
+        font-weight: 100;
+    }
+}
+
+@media (max-width: 320px) {
+
+    /* Menu */
+    .menu__div {
+        flex-direction: row;
+    }
+
+    .menu__title {
+        margin: 0.5rem;
+    }
+
+    .menu__list {
+        margin: 0.5rem;
+    }
+}

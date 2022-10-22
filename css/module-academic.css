@@ -1,0 +1,78 @@
+/* Academic */
+.academic {
+    background-color: var(--cor-de-fundo-2);
+    padding: 2rem 0;
+}
+
+.academic__title {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.academic__courses {
+    display: flex;
+    margin: auto;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.academic__courses__list {
+    display: flex;
+    flex-direction: column;
+    width: 368px;
+}
+
+.academic__courses__item__img {
+    display: flex;
+    justify-content: center;
+    padding: 5rem 2rem;
+    background-color: var(--cor-de-fundo-3);
+    border-radius: 10px;
+}
+
+.academic__courses__item__title h4 {
+    margin: 0.5rem 0;
+}
+
+.academic__courses__item__subtitle p {
+    margin: 0;
+}
+
+/* Diseño Adaptativo */
+@media (max-width: 768px) {
+
+    /* Academic */
+    .academic__title {
+        font-size: 1.5rem;
+    }
+
+    .academic__courses__list {
+        width: 220px;
+    }
+
+    .academic__courses__item__img {
+        padding: 1rem;
+    }
+
+    .academic__courses__item__img img {
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media (max-width: 425px) {
+
+    /* Academic */
+    .academic__courses__list {
+        width: 300px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    /* Academic */
+    .academic__courses__list {
+        width: 250px;
+    }
+}

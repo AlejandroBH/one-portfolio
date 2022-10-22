@@ -1,0 +1,25 @@
+/* Footer */
+.footer {
+    padding: 1rem;
+    background-color: var(--cor-de-fundo-3);
+    color: var(--cor-de-texto-2);
+}
+
+.footer__rodape {
+    width: var(--max-size-width);
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 0.5;
+}
+
+/* Diseño Adaptativo */
+@media (max-width: 425px) {
+
+    /* Footer */
+    .footer__rodape {
+        font-size: 1rem;
+        font-weight: 100;
+    }
+}
