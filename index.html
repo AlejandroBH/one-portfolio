@@ -41,7 +41,7 @@
             <img class="title__profile" src="assets/profile.png">
             <div class="title__container">
                 <h2 class="title__bio">Hola, mi nombre es A. Barrera</h2>
-                <h3 class="title__subsection">Soy estudiante autodidacta de Informatica, con experiencia en emprendimientos de impresion grafica y servidores de videojuegos en linea, actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
+                <h3 class="title__subsection">Soy Chileno, tengo <span id="calcEdad">31</span> años, estudio informática de forma autodidacta, tengo experiencia en emprendimientos de impresión gráfica y servidores de videojuegos en línea. Actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
                 <ul class="title__network">
                      <!-- Pon los enlaces de tus redes sociales favoritas -->
                     <li class="title__network__item"><a href="https://github.com/AlejandroBH">Github <img src="assets\arrow.png"> </a></li>
@@ -238,10 +238,10 @@
                     <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
                     <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
                     <form class="formcontato__form" name="form">
-                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
-                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                        <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
-                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
+                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" maxlength="50" required>
+                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail" required>
+                        <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto" maxlength="50" required>
+                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje" maxlength="300" required></textarea>
                         <button type="submit" class="formcontato__botao">Enviar mensaje</button>
                     </form>
                 </div>
