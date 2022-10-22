@@ -19,7 +19,8 @@ coloque nas sessões indicadas*/
 
 body {
     box-sizing: border-box;
-    background-image: url('/assets/bg.jpg');
+    background-color: var(--cor-de-fundo);
+    background-image: url('../assets/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
