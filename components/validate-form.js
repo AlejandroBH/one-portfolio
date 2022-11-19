@@ -12,8 +12,8 @@ const fields = {
 const Expressions = {
     nombre: /^[a-zA-Z\ ]{5,50}$/, //Solo letras y espacios
     email: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/, //formato correo@correo.com
-    asunto: /^[a-zA-Z0-9\ ]{5,50}$/, //Solo letras y numeros, se permiten espacios
-    mensaje: /^[a-zA-Z0-9\ ]{5,300}$/ //Solo letras y numeros, se permiten espacios
+    asunto: /^[a-zA-ZÀ-ÿ0-9\ ]{5,50}$/, //Solo letras y numeros, se permiten espacios
+    mensaje: /^[a-zA-ZÀ-ÿ0-9\ ]{5,300}$/ //Solo letras y numeros, se permiten espacios
 }
 
 const validateForm = (e) => {
