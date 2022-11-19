@@ -11,8 +11,12 @@ coloque nas sessões indicadas*/
     --cor-de-fundo-2: #06283dc7;
     --cor-de-fundo-3: #DFF6FF;
     --cor-de-fundo-4: #222222d5;
+    --cor-de-fundo-error: #ffefef;
+    --cor-de-fundo-succes: #e8f0fe;
     --cor-de-texto: #DFF6FF;
     --cor-de-texto-2: #06283D;
+    --cor-de-texto-3: #7e8e94;
+    --cor-de-error: #e45757;
     --cor-de-link: #000;
     --max-size-width: 65%;
 }
